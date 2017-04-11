@@ -77,9 +77,9 @@ class model{
 	
 		double cost(); // add get_price for all parts
 	
-		/*	double max_speed(); // max_energy / (loco_max_pwr + head_pwr) 
+			double max_speed(); // max_energy / (loco_max_pwr + head_pwr) 
 		double max_battery_life(); max_energy / ((pwr_avalible * bat_comps) - (head_pwr + loco_maxpwr + (arm_max_pwr * max_arms))) 
-	*/
+	
 	private:
 		string model_name;
 		int model_num;
